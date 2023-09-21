@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+   <script src="script.js"></script>
     <title>Mi Web Simple</title>
 </head>
 <body>
@@ -16,6 +17,16 @@
         <input type="text" id="texto" name="texto">
         <button>Enviar</button>
     </main>
+
+   <h1>Buscador de Películas</h1>
+       <form id="movie-form">
+	               <label for="movie-title">Introduce el título de la película:</label>
+		               <input type="text" id="movie-title" name="movie-title" required>
+			               <button type="button" id="search-button">Buscar</button>
+				           </form>
+					       <h2>Información de la película:</h2>
+					           <p>Director: <span id="director"></span></p>
+						       <p>Año: <span id="year"></span></p>
 </body>
 </html>
 
