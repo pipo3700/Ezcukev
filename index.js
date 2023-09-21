@@ -1,8 +1,3 @@
-window.onload=function(){
-	alert ('Este es un mensjae de alerta desde JavaScript');
-
-}
-
 document.addEventListener("DOMContentLoaded", function () {
 	        const form = document.getElementById("movie-form");
 	        const searchButton = document.getElementById("search-button");
